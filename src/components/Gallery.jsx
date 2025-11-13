@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const images = ['/images/gallery/img1.jpg','/images/gallery/img2.jpg','/images/gallery/3.jpg','/images/gallery/4.jpg'];
+const images = ['/images/gallery/img1.jpg','/images/gallery/img2.jpg','/images/gallery/img3.jpg','/images/gallery/img4.jpg'];
 
 export default function Gallery() {
   const [selected, setSelected] = useState(null);
